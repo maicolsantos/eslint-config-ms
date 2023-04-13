@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-ms",
+  "version": "1.0.0",
+  "description": "ESLint configuration used by Maicol Santos.",
+  "license": "MIT",
+  "main": "nextjs.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maicolsantos/eslint-config-ms.git"
+  },
+  "author": "Maicol Santos",
+  "bugs": {
+    "url": "https://github.com/maicolsantos/eslint-config-ms/issues"
+  },
+  "homepage": "https://github.com/maicolsantos/eslint-config-ms#readme",
+  "dependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5"
+  },
+  "peerDependencies": {
+    "eslint": "8.23.0"
+  }
+}
