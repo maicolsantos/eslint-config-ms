@@ -6,7 +6,8 @@
 ```
 npm i -D eslint
 ```
-If you have a eslint dependency installed, you can just install it directly
+
+If you ever have an eslint dependency installed, you can just install it directly
 ```
 npm i -D eslint-config-ms
 ```
