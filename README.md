@@ -1,5 +1,7 @@
 # ESlint config
 
+ESlint config to Nextjs and React with TypeScript
+
 ## Setup
 
 1. Install the dependencies
