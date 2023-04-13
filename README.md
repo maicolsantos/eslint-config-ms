@@ -15,5 +15,6 @@ npm i -D eslint-config-ms
 ```
 {
   "extends": "eslint-config-ms/nextjs"
+  // "extends": "eslint-config-ms/react"
 }
 ```
