@@ -1,9 +1,9 @@
 {
   "name": "eslint-config-ms",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "ESLint configuration used by Maicol Santos.",
   "license": "MIT",
-  "main": "nextjs.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maicolsantos/eslint-config-ms.git"
@@ -14,10 +14,10 @@
   },
   "homepage": "https://github.com/maicolsantos/eslint-config-ms#readme",
   "dependencies": {
-    "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5"
+    "eslint": "^8.23.0 || ^8.38.0",
+    "eslint-config-next": "^13.3.0"
   },
   "peerDependencies": {
-    "eslint": "8.23.0"
+    "eslint": "^8.23.0 || ^8.38.0"
   }
 }
