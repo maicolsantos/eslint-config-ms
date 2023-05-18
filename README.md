@@ -17,7 +17,6 @@ npm i -D eslint-config-ms
 2. Create a `.eslintrc.json` file extending the config:
 ```
 {
-  "extends": "eslint-config-ms/nextjs"
-  // "extends": "eslint-config-ms/react"
+  "extends": "eslint-config-ms/react"
 }
 ```
