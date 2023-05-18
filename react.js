@@ -67,10 +67,6 @@ module.exports = {
       consistent: true,
       minProperties: 4,
     }],
-    "array-bracket-spacing": [ "error", "always", {
-      objectsInArrays: false,
-      arraysInArrays: false,
-    }],
   },
   settings: {
     react: {
