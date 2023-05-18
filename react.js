@@ -49,6 +49,28 @@ module.exports = {
     'jsx-a11y/aria-unsupported-elements': 'warn',
     'jsx-a11y/role-has-required-aria-props': 'warn',
     'jsx-a11y/role-supports-aria-props': 'warn',
+    "no-console": [ 1, { allow: [ "warn", "error" ] }],
+    "prefer-const": "error",
+    "comma-dangle": [ "error", "always-multiline" ],
+    indent: [ "error", 2, { SwitchCase: 1 }],
+    "no-empty-function": "error",
+    "newline-before-return": "error",
+    "max-len": [ "error", { code: 120, ignorePattern: "^import\\W.*" }],
+    "no-multiple-empty-lines": [ "error", { max: 1, maxBOF: 0, maxEOF: 0 }],
+    "no-unused-vars": ["error", { vars: "all", args: "after-used", ignoreRestSiblings: false }],
+    "import/order": 0,
+    semi: [ "error", "never" ],
+    quotes: ["error", "single"],
+    "object-curly-spacing": [ "error", "always" ],
+    "object-curly-newline": [ "error", {
+      multiline: true,
+      consistent: true,
+      minProperties: 4,
+    }],
+    "array-bracket-spacing": [ "error", "always", {
+      objectsInArrays: false,
+      arraysInArrays: false,
+    }],
   },
   settings: {
     react: {
